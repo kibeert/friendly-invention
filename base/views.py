@@ -3,6 +3,7 @@ from .forms import Customuser
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from .models import User
+from django.contrib.auth.forms import UserCreationForm
 
 # Create your views here.
 def home_view(request, *args, **kwargs):
